@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Computer Generated Art Gallery</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="stylesheet" href="https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<php src ="contact.php">
+</head>
+
+<body>
+
+
+	<!-- Add header with logo and company info -->
+	<header>
+		<img src="logo-removebg-preview.png" alt="Company Logo" style="height: 70px;">
+		<h1 style="font-family: Audiowide , sans-serif;">The Third Realm Desings .Co</h1>
+		<p >Online Art Gallery <br> By Pranav Chahal</p>
+	</header>
+	
+
+	<!-- Add space for company information -->
+	<section class="about">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>I offer freelance services as a 3D designer and programmer. If you need custom designs or would like to purchase the rights to any of my existing designs, please don't hesitate to contact me.
+				My prices are based on my skills and talent and not your budget.
+			</p>
+		</div>  
+	</section>
+
+	<!-- Create gallery items -->
+	<section class="gallery">
+		<div class="item">
+			<img src="mazdoor.png" alt="Artwork 1">
+			<h3>Artwork 1</h3>
+		</div>
+		<div class="item">
+			<img src="impala.png" alt="Artwork 2">
+			<h3>Artwork 2</h3>
+		</div>
+		<div class="item">
+			<img src="arc reactor.png" alt="Artwork 3">
+			<h3>Artwork 3</h3>
+		</div>
+		<div class="item">
+			<img src="2seater.png" alt="Artwork 4">
+			<h3>Artwork 4</h3>
+		</div>
+		<div class="item">
+			<img src="docking port.png" alt="Artwork 5">
+			<h3>Artwork 5</h3>
+		</div>
+		<div class="item">
+			<img src="product.png" alt="Artwork 6">
+			<h3>Artwork 6</h3>
+		</div>
+		<div class="item">
+			<img src="band.png" alt="Artwork 6">
+			<h3>Artwork 6</h3>
+		</div>
+		<div class="item">
+			<img src="bdsc.png" alt="Artwork 6">
+			<h3>Artwork 6</h3>
+		</div>
+		<div class="item">
+			<img src="bdsc1.png" alt="Artwork 6">
+			<h3>Artwork 6</h3>
+		</div>
+	</section>
+
+	<!-- Add contact form -->
+	<section id="contact">
+		<h2>Contact Us</h2>
+		<form id="contact-form" action="contact.php" method="post">
+		  <label for="name">Name:</label>
+		  <input type="text" id="name" name="name" required>
+	  
+		  <label for="email">Email:</label>
+		  <input type="email" id="email" name="email" required>
+	  
+		  <label for="message">Message:</label>
+		  <textarea id="message" name="message" required></textarea>
+	  
+		  <button type="submit">Send</button>
+		</form>
+	  </section>
+	  
+
+	<!-- Add footer -->
+	<footer>
+		<p>&copy; 2023 Computer Generated Art Gallery</p>
+	</footer>
+
+</body>
+</html>
